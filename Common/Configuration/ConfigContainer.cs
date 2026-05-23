@@ -49,7 +49,7 @@ public class GameServerConfig
     public string GameServerId { get; set; } = "March7th_Honey";
     public string GameServerName { get; set; } = "March7thHoney";
     public string GameServerDescription { get; set; } = "A re-implementation of StarRail server";
-    public int EnvType { get; set; } = 9;
+    public int EnvType { get; set; } = 2;
     public bool UsePacketEncryption { get; set; } = true;
 
     public string GetDisplayAddress()
@@ -95,7 +95,7 @@ public class ServerOption
     public ServerProfile ServerProfile { get; set; } = new();
     public WatermarkConfig Watermark { get; set; } = new();
     public AuthOption Auth { get; set; } = new();
-    public bool AutoCreateUser { get; set; } = false;
+    public bool AutoCreateUser { get; set; } = true;
     public LogOption LogOption { get; set; } = new();
     public ServerConfig ServerConfig { get; set; } = new();
     public int FarmingDropRate { get; set; } = 1;
@@ -206,7 +206,7 @@ public class ServerRegion
     public string GateWayAddress { get; set; } = "";
     public string GameServerName { get; set; } = "";
     public string GameServerId { get; set; } = "";
-    public int EnvType { get; set; } = 21;
+    public int EnvType { get; set; } = 2;
 }
 
 public class LogOption
