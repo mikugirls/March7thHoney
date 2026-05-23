@@ -1,0 +1,50 @@
+
+
+
+
+#pragma warning disable 1591, 0612, 3021, 8981
+#region Designer generated code
+
+using pb = global::Google.Protobuf;
+using pbc = global::Google.Protobuf.Collections;
+using pbr = global::Google.Protobuf.Reflection;
+using scg = global::System.Collections.Generic;
+namespace March7thHoney.Proto {
+
+  
+  public static partial class StatTypeReflection {
+
+    #region Descriptor
+    
+    public static pbr::FileDescriptor Descriptor {
+      get { return descriptor; }
+    }
+    private static pbr::FileDescriptor descriptor;
+
+    static StatTypeReflection() {
+      byte[] descriptorData = global::System.Convert.FromBase64String(
+          string.Concat(
+            "Cg5TdGF0VHlwZS5wcm90byp+CghTdGF0VHlwZRIbChdQT0hESUJBTkdFRl9Q",
+            "Q1BESEVMUEtFTRAAEhsKF1BPSERJQkFOR0VGX0dOUE5NR1BDSkREEAESGwoX",
+            "UE9IRElCQU5HRUZfTEpNSUNFTEVIQUwQAhIbChdQT0hESUJBTkdFRl9MRExG",
+            "RkpQT0VQSxADQhaqAhNNYXJjaDd0aEhvbmV5LlByb3RvYgZwcm90bzM="));
+      descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
+          new pbr::FileDescriptor[] { },
+          new pbr::GeneratedClrTypeInfo(new[] {typeof(global::March7thHoney.Proto.StatType), }, null, null));
+    }
+    #endregion
+
+  }
+  #region Enums
+  public enum StatType {
+    [pbr::OriginalName("POHDIBANGEF_PCPDHELPKEM")] PohdibangefPcpdhelpkem = 0,
+    [pbr::OriginalName("POHDIBANGEF_GNPNMGPCJDD")] PohdibangefGnpnmgpcjdd = 1,
+    [pbr::OriginalName("POHDIBANGEF_LJMICELEHAL")] PohdibangefLjmicelehal = 2,
+    [pbr::OriginalName("POHDIBANGEF_LDLFFJPOEPK")] PohdibangefLdlffjpoepk = 3,
+  }
+
+  #endregion
+
+}
+
+#endregion Designer generated code

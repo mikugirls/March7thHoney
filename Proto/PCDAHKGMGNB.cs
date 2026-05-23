@@ -1,0 +1,55 @@
+
+
+
+
+#pragma warning disable 1591, 0612, 3021, 8981
+#region Designer generated code
+
+using pb = global::Google.Protobuf;
+using pbc = global::Google.Protobuf.Collections;
+using pbr = global::Google.Protobuf.Reflection;
+using scg = global::System.Collections.Generic;
+namespace March7thHoney.Proto {
+
+  
+  public static partial class PCDAHKGMGNBReflection {
+
+    #region Descriptor
+    
+    public static pbr::FileDescriptor Descriptor {
+      get { return descriptor; }
+    }
+    private static pbr::FileDescriptor descriptor;
+
+    static PCDAHKGMGNBReflection() {
+      byte[] descriptorData = global::System.Convert.FromBase64String(
+          string.Concat(
+            "ChFQQ0RBSEtHTUdOQi5wcm90byrYAQoLUENEQUhLR01HTkISGwoXUENEQUhL",
+            "R01HTkJfUENQREhFTFBLRU0QABIbChdQQ0RBSEtHTUdOQl9HR0ZKS0dGRk9C",
+            "RRABEhsKF1BDREFIS0dNR05CX0pQTEhNTERQSU1BEAISGwoXUENEQUhLR01H",
+            "TkJfQkZKSEtBRURORkMQAxIbChdQQ0RBSEtHTUdOQl9EUEJNTUJLQ1BETxAE",
+            "EhsKF1BDREFIS0dNR05CX0lMQ0hEQktMTEZBEAUSGwoXUENEQUhLR01HTkJf",
+            "RkJIS0FGUE9OTEIQBkIWqgITTWFyY2g3dGhIb25leS5Qcm90b2IGcHJvdG8z"));
+      descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
+          new pbr::FileDescriptor[] { },
+          new pbr::GeneratedClrTypeInfo(new[] {typeof(global::March7thHoney.Proto.PCDAHKGMGNB), }, null, null));
+    }
+    #endregion
+
+  }
+  #region Enums
+  public enum PCDAHKGMGNB {
+    [pbr::OriginalName("PCDAHKGMGNB_PCPDHELPKEM")] Pcpdhelpkem = 0,
+    [pbr::OriginalName("PCDAHKGMGNB_GGFJKGFFOBE")] Ggfjkgffobe = 1,
+    [pbr::OriginalName("PCDAHKGMGNB_JPLHMLDPIMA")] Jplhmldpima = 2,
+    [pbr::OriginalName("PCDAHKGMGNB_BFJHKAEDNFC")] Bfjhkaednfc = 3,
+    [pbr::OriginalName("PCDAHKGMGNB_DPBMMBKCPDO")] Dpbmmbkcpdo = 4,
+    [pbr::OriginalName("PCDAHKGMGNB_ILCHDBKLLFA")] Ilchdbkllfa = 5,
+    [pbr::OriginalName("PCDAHKGMGNB_FBHKAFPONLB")] Fbhkafponlb = 6,
+  }
+
+  #endregion
+
+}
+
+#endregion Designer generated code

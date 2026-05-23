@@ -1,0 +1,16 @@
+using March7thHoney.GameServer.Server.Packet.Send.Item;
+using March7thHoney.Kcp;
+using March7thHoney.Proto;
+
+namespace March7thHoney.GameServer.Server.Packet.Recv.Item;
+
+[Opcode(CmdIds.SellItemCsReq)]
+public class HandlerSellItemCsReq : Handler
+{
+    public override async Task OnHandle(Connection connection, byte[] header, byte[] data)
+    {
+        var req = SellItemCsReq.Parser.ParseFrom(data);
+        var items = await connection.Player!.InventoryManager!.SellItem(req.CostData, req.ToMaterial);
+        await connection.SendPacket(new PacketSellItemScRsp(items));
+    }
+}

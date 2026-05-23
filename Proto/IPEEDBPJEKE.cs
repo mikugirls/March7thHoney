@@ -1,0 +1,49 @@
+
+
+
+
+#pragma warning disable 1591, 0612, 3021, 8981
+#region Designer generated code
+
+using pb = global::Google.Protobuf;
+using pbc = global::Google.Protobuf.Collections;
+using pbr = global::Google.Protobuf.Reflection;
+using scg = global::System.Collections.Generic;
+namespace March7thHoney.Proto {
+
+  
+  public static partial class IPEEDBPJEKEReflection {
+
+    #region Descriptor
+    
+    public static pbr::FileDescriptor Descriptor {
+      get { return descriptor; }
+    }
+    private static pbr::FileDescriptor descriptor;
+
+    static IPEEDBPJEKEReflection() {
+      byte[] descriptorData = global::System.Convert.FromBase64String(
+          string.Concat(
+            "ChFJUEVFREJQSkVLRS5wcm90bypkCgtJUEVFREJQSkVLRRIbChdJUEVFREJQ",
+            "SkVLRV9QQ1BESEVMUEtFTRAAEhsKF0lQRUVEQlBKRUtFX0NCSU1MRkpHT0lJ",
+            "EAESGwoXSVBFRURCUEpFS0VfSU5OSEFJRE9HTkYQAkIWqgITTWFyY2g3dGhI",
+            "b25leS5Qcm90b2IGcHJvdG8z"));
+      descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
+          new pbr::FileDescriptor[] { },
+          new pbr::GeneratedClrTypeInfo(new[] {typeof(global::March7thHoney.Proto.IPEEDBPJEKE), }, null, null));
+    }
+    #endregion
+
+  }
+  #region Enums
+  public enum IPEEDBPJEKE {
+    [pbr::OriginalName("IPEEDBPJEKE_PCPDHELPKEM")] Pcpdhelpkem = 0,
+    [pbr::OriginalName("IPEEDBPJEKE_CBIMLFJGOII")] Cbimlfjgoii = 1,
+    [pbr::OriginalName("IPEEDBPJEKE_INNHAIDOGNF")] Innhaidognf = 2,
+  }
+
+  #endregion
+
+}
+
+#endregion Designer generated code

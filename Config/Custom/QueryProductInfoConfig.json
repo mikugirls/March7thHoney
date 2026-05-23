@@ -1,0 +1,208 @@
+{
+  "productList": [
+    {
+      "JCJGHCOEOOJ": 50,
+      "beginTime": "978325200",
+      "endTime": "4070926800",
+      "giftType": "PRODUCT_GIFT_APPLE_GIFT_CARD",
+      "priceTier": "Tier_2",
+      "productId": "rpgglbios050giftcard"
+    },
+    {
+      "JCJGHCOEOOJ": 2000,
+      "beginTime": "978325200",
+      "endTime": "4070926800",
+      "giftType": "PRODUCT_GIFT_GOOGLE_POINTS_150",
+      "priceTier": "Tier_3",
+      "productId": "rpgglbgoogle150giftcard"
+    },
+    {
+      "JCJGHCOEOOJ": 2,
+      "beginTime": "1751274000",
+      "endTime": "1755028799",
+      "giftType": "PRODUCT_GIFT_TICKET_10",
+      "priceTier": "Tier_15",
+      "productId": "rpgglbtickettier15"
+    },
+    {
+      "JCJGHCOEOOJ": 1,
+      "beginTime": "1751274000",
+      "endTime": "1755028799",
+      "giftType": "PRODUCT_GIFT_SINGLE_6",
+      "priceTier": "Tier_1",
+      "productId": "rpgglbyear2tier1"
+    },
+    {
+      "beginTime": "978325200",
+      "endTime": "4070926800",
+      "giftType": "PRODUCT_GIFT_FTC_NORMAL_GACHA_TICKET_10",
+      "priceTier": "Tier_22",
+      "productId": "rpgftcnormalticket10tierusd2199"
+    },
+    {
+      "beginTime": "978325200",
+      "endTime": "4070926800",
+      "giftType": "PRODUCT_GIFT_FTC_UP_GACHA_TICKET_1",
+      "priceTier": "Alternate_Tier_2_59",
+      "productId": "rpgftcticket1tierusd259"
+    },
+    {
+      "JCJGHCOEOOJ": 1,
+      "MEMNCJLKAEE": 2,
+      "beginTime": "1770897600",
+      "endTime": "1774382400",
+      "giftType": "PRODUCT_GIFT_SINGLE_6",
+      "priceTier": "Tier_1",
+      "productId": "rpgglbyear3tier1"
+    },
+    {
+      "beginTime": "1577854800",
+      "doubleReward": true,
+      "endTime": "4070926800",
+      "giftType": "PRODUCT_GIFT_COIN",
+      "priceTier": "Tier_1",
+      "productId": "rpgglbcoin60tier1"
+    },
+    {
+      "beginTime": "1577854800",
+      "doubleReward": true,
+      "endTime": "4070926800",
+      "giftType": "PRODUCT_GIFT_COIN",
+      "priceTier": "Tier_60",
+      "productId": "rpgglbcoin6480tier60"
+    },
+    {
+      "beginTime": "1577854800",
+      "doubleReward": true,
+      "endTime": "4070926800",
+      "giftType": "PRODUCT_GIFT_COIN",
+      "priceTier": "Tier_50",
+      "productId": "rpgglbcoin3280tier50"
+    },
+    {
+      "JCJGHCOEOOJ": 1,
+      "MEMNCJLKAEE": 3,
+      "beginTime": "1776722400",
+      "endTime": "1780257599",
+      "giftType": "PRODUCT_GIFT_DAILY_LOGIN_30",
+      "priceTier": "Tier_5",
+      "productId": "rpgglbyear3tier5"
+    },
+    {
+      "beginTime": "1577854800",
+      "doubleReward": true,
+      "endTime": "4070926800",
+      "giftType": "PRODUCT_GIFT_COIN",
+      "priceTier": "Tier_30",
+      "productId": "rpgglbcoin1980tier30"
+    },
+    {
+      "beginTime": "1577854800",
+      "endTime": "4070926800",
+      "giftType": "PRODUCT_GIFT_MONTH_CARD",
+      "priceTier": "Tier_5",
+      "productId": "rpgglbmonthcardtier5"
+    },
+    {
+      "beginTime": "978325200",
+      "endTime": "4070926800",
+      "giftType": "PRODUCT_GIFT_FTC_UP_GACHA_TICKET_10",
+      "priceTier": "Tier_22",
+      "productId": "rpgftcticket10tierusd2199"
+    },
+    {
+      "beginTime": "1577854800",
+      "doubleReward": true,
+      "endTime": "4070926800",
+      "giftType": "PRODUCT_GIFT_COIN",
+      "priceTier": "Tier_15",
+      "productId": "rpgglbcoin980tier15"
+    },
+    {
+      "beginTime": "1577854800",
+      "doubleReward": true,
+      "endTime": "4070926800",
+      "giftType": "PRODUCT_GIFT_COIN",
+      "priceTier": "Tier_5",
+      "productId": "rpgglbcoin300tier5"
+    },
+    {
+      "JCJGHCOEOOJ": 1,
+      "beginTime": "1744016400",
+      "endTime": "1747771199",
+      "giftType": "PRODUCT_GIFT_SINGLE_6",
+      "priceTier": "Tier_1",
+      "productId": "rpgglbyeartier1"
+    },
+    {
+      "JCJGHCOEOOJ": 2,
+      "MEMNCJLKAEE": 1,
+      "beginTime": "1770897600",
+      "endTime": "1774382400",
+      "giftType": "PRODUCT_GIFT_TICKET_10",
+      "priceTier": "Tier_15",
+      "productId": "rpgglbticket3tier15"
+    },
+    {
+      "beginTime": "978325200",
+      "endTime": "4070926800",
+      "giftType": "PRODUCT_GIFT_BP68_UPGRADE_128",
+      "priceTier": "Tier_12",
+      "productId": "rpgglbbattlepassupgradetier12"
+    },
+    {
+      "beginTime": "978325200",
+      "endTime": "4070926800",
+      "giftType": "PRODUCT_GIFT_FTC_NORMAL_GACHA_TICKET_1",
+      "priceTier": "Alternate_Tier_2_59",
+      "productId": "rpgftcnormalticket1tierusd259"
+    },
+    {
+      "beginTime": "1672549200",
+      "endTime": "4070926800",
+      "giftType": "PRODUCT_GIFT_POINT_CARD",
+      "priceTier": "Tier_1",
+      "productId": "rpgglbpointcardtierx"
+    },
+    {
+      "JCJGHCOEOOJ": 1,
+      "MEMNCJLKAEE": 1,
+      "beginTime": "1776810600",
+      "endTime": "4070926800",
+      "giftType": "EJEBHIIKAJF_DBIADNGNFMD",
+      "priceTier": "Tier_4",
+      "productId": "rpgglbskintier4"
+    },
+    {
+      "JCJGHCOEOOJ": 1,
+      "MEMNCJLKAEE": 1,
+      "beginTime": "1776722400",
+      "endTime": "1780257599",
+      "giftType": 25,
+      "priceTier": "Alternate_Tier_A",
+      "productId": "rpgglbyear4tierusd029"
+    },
+    {
+      "JCJGHCOEOOJ": 2000,
+      "beginTime": "978325200",
+      "endTime": "4070926800",
+      "giftType": "PRODUCT_GIFT_GOOGLE_POINTS_100",
+      "priceTier": "Tier_2",
+      "productId": "rpgglbgoogle100giftcard"
+    },
+    {
+      "beginTime": "978325200",
+      "endTime": "4070926800",
+      "giftType": "PRODUCT_GIFT_BP_68",
+      "priceTier": "Tier_10",
+      "productId": "rpgglbbattlepassnormaltier10"
+    },
+    {
+      "beginTime": "978325200",
+      "endTime": "4070926800",
+      "giftType": "PRODUCT_GIFT_BP_128",
+      "priceTier": "Tier_20",
+      "productId": "rpgglbbattlepassdeluxetier20"
+    }
+  ]
+}

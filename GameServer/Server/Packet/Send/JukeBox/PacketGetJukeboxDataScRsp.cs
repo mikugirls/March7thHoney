@@ -1,0 +1,34 @@
+using March7thHoney.Data;
+using March7thHoney.GameServer.Game.Player;
+using March7thHoney.Kcp;
+using March7thHoney.Proto;
+
+namespace March7thHoney.GameServer.Server.Packet.Send.JukeBox;
+
+public class PacketGetJukeboxDataScRsp : BasePacket
+{
+    public PacketGetJukeboxDataScRsp(PlayerInstance player) : base(CmdIds.GetJukeboxDataScRsp)
+    {
+        var proto = new GetJukeboxDataScRsp
+        {
+            JILKOPINLDC = new MCPPIEJEBEF
+            {
+                LEKGBMCOJDB = new NKLAFFLJCHG
+                {
+                    Id = (uint)player.Data.CurrentBgm
+                }
+            }
+        };
+
+        foreach (var music in GameData.BackGroundMusicData.Values)
+            proto.UnlockedMusicList.Add(new MusicData
+            {
+                Id = (uint)music.ID,
+                GroupId = (uint)music.GroupID,
+                IsPlayed = true
+            });
+
+        SetData(proto);
+    }
+}
+

@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>March7thHoney.GameServer</RootNamespace>
+    <StartupObject></StartupObject>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <AssemblyName>March7thHoney.GameServer</AssemblyName>
+    <ApplicationIcon>March7thHoney.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+	  <Content Include="March7thHoney.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Common\Common.csproj" />
+    <ProjectReference Include="..\KcpSharp\KcpSharp.csproj" />
+    <ProjectReference Include="..\Proto\Proto.csproj" />
+    <ProjectReference Include="..\ServerSideProto\ServerSideProto.csproj" />
+    <PackageReference Include="Google.Protobuf" Version="3.33.1" />
+    <PackageReference Include="Google.Protobuf.Tools" Version="3.33.1" />
+    <PackageReference Include="McMaster.NETCore.Plugins" Version="2.0.0" />
+    <PackageReference Include="McMaster.NETCore.Plugins.Mvc" Version="2.0.0" />
+  </ItemGroup>
+
+</Project>
+

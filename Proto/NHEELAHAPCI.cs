@@ -1,0 +1,52 @@
+
+
+
+
+#pragma warning disable 1591, 0612, 3021, 8981
+#region Designer generated code
+
+using pb = global::Google.Protobuf;
+using pbc = global::Google.Protobuf.Collections;
+using pbr = global::Google.Protobuf.Reflection;
+using scg = global::System.Collections.Generic;
+namespace March7thHoney.Proto {
+
+  
+  public static partial class NHEELAHAPCIReflection {
+
+    #region Descriptor
+    
+    public static pbr::FileDescriptor Descriptor {
+      get { return descriptor; }
+    }
+    private static pbr::FileDescriptor descriptor;
+
+    static NHEELAHAPCIReflection() {
+      byte[] descriptorData = global::System.Convert.FromBase64String(
+          string.Concat(
+            "ChFOSEVFTEFIQVBDSS5wcm90byqeAQoLTkhFRUxBSEFQQ0kSGwoXTkhFRUxB",
+            "SEFQQ0lfUENQREhFTFBLRU0QABIbChdOSEVFTEFIQVBDSV9ITElER0RMTkZI",
+            "TRABEhsKF05IRUVMQUhBUENJX0VHRkJHSkdJRUtNEAISGwoXTkhFRUxBSEFQ",
+            "Q0lfTlBEQ09KQ0FIUEUQAxIbChdOSEVFTEFIQVBDSV9HQUxHRklPTU9JTxAE",
+            "QhaqAhNNYXJjaDd0aEhvbmV5LlByb3RvYgZwcm90bzM="));
+      descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
+          new pbr::FileDescriptor[] { },
+          new pbr::GeneratedClrTypeInfo(new[] {typeof(global::March7thHoney.Proto.NHEELAHAPCI), }, null, null));
+    }
+    #endregion
+
+  }
+  #region Enums
+  public enum NHEELAHAPCI {
+    [pbr::OriginalName("NHEELAHAPCI_PCPDHELPKEM")] Pcpdhelpkem = 0,
+    [pbr::OriginalName("NHEELAHAPCI_HLIDGDLNFHM")] Hlidgdlnfhm = 1,
+    [pbr::OriginalName("NHEELAHAPCI_EGFBGJGIEKM")] Egfbgjgiekm = 2,
+    [pbr::OriginalName("NHEELAHAPCI_NPDCOJCAHPE")] Npdcojcahpe = 3,
+    [pbr::OriginalName("NHEELAHAPCI_GALGFIOMOIO")] Galgfiomoio = 4,
+  }
+
+  #endregion
+
+}
+
+#endregion Designer generated code
